@@ -15,7 +15,7 @@ def get_streaming_url(file_id, api_key):
 def main():
     shared_link = input("Please enter the Google Drive shared link: ")
     # api_key = input("Please enter your Google API key: ")
-    api_key = "AIzaSyD1D9U2xpEq-oXEKxfO9Nzk68BOeSoArVU"
+    api_key = ""
     file_id = extract_id(shared_link)
     if not file_id:
         print("Invalid Google Drive shared link.")
